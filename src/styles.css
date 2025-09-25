@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #000;
+}
+
+button {
+    background-color: lightblue;
+    color: black;
+    border: black 2px solid;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}

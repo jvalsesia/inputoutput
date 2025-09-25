@@ -1,0 +1,15 @@
+<div class="content">
+    <h2>Child {{ childNumber() }}</h2>
+    <p>This is the child title passed by parent: [{{ childTitle() }}]</p>
+
+    <p>Button that sends random Data number to the parent component:
+    </p>
+    <div>
+        <button (click)="sendNumberToParent()">Send
+            Data Number</button>
+    </div>
+    <div>
+        <button (click)="sendStringToParent()">Send
+            Data String</button>
+    </div>
+</div>
