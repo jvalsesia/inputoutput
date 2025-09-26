@@ -10,10 +10,7 @@ export class Child {
   childTitle = input<string>();
   childNumber = input<number>();
   numberToParent = output<number>();
-
   stringToParent = output<string>();
-
-
 
   sendNumberToParent() {
     // Emitting a sample number to the parent component

@@ -11,8 +11,13 @@ button {
     cursor: pointer;
 }
 
-p {
-    color: white;
+.button-blue {
+    background-color: lightblue;
+
+}
+
+.button-red {
+    background-color: lightcoral;
 }
 
 
